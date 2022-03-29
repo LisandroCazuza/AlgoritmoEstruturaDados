@@ -5,12 +5,12 @@ parâmetros, eles serão impressos ou retirados:
 1- Nome de cada produto;
 2 - Preços dos produtos;
 3- Quantidade de  produtos. """
-
+"""________________________________________________________________________"""
 lstnomeprod = [       ]
 lstprecoprod = [     ]
 lstquantprod = [   ]
 
- print("-"*50)
+print("-"*50)
 while True:
             print("\n\t---------  Menu   ----------")
             print("\n\t0) Finalizar o Menu")
