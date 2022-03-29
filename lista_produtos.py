@@ -7,51 +7,31 @@ parâmetros, eles serão impressos ou retirados:
 3- Quantidade de  produtos. """
 
 lstnomeprod = [       ]
-
 lstprecoprod = [     ]
-
 lstquantprod = [   ]
 
- 
-
+ print("-"*50)
 while True:
-
             print("\n\t---------  Menu   ----------")
-
             print("\n\t0) Finalizar o Menu")
-
             print("\t1) Adicionar nome do produto")
-
             print("\t2) Adicionar preço do produto")
-
             print("\t3) Quantidade de produtos")
-
             print("\t4) Verificar nome do produto")
-
             print("\t5) Remover nome\n\t")
 
             opcao = int(input("\tEscolha uma opção [0-5]: "))
 
-            if opcao == 0:
-
+            if opcao == 0: 
                 print("Você saiu do sistema!")
-
                 break
-
-            elif opcao == 1:
-
+            elif opcao == 1:  
                 nomeprod1 = input("Digite o nome do produto: ")
-
-                if nomeprod1 in lstnomeprod:
-
+            if nomeprod1 in lstnomeprod:
                     print(f"O produto {nomeprod1} já está na lista.")
-
-                else:
-
+            else:
                     lstnomeprod.append(nomeprod1)
-
                     print(f"O produto {nomeprod1} foi adicionado à lista.")
-
             elif opcao == 2:
 
                 preco = float(input("Digite o preço do produto:R$  "))
