@@ -31,43 +31,23 @@ while True:
                     print(f"O produto {nomeprod1} já está na lista.")
             else:
                     lstnomeprod.append(nomeprod1)
-                    print(f"O produto {nomeprod1} foi adicionado à lista.")
-            elif opcao == 2:
-
+            if opcao == 2:
                 preco = float(input("Digite o preço do produto:R$  "))
-
                 lstprecoprod.append(preco)
-
                 print(f"Valor R$ {preco} adicionado à lista.")
-
             elif opcao == 3:
-
                 print(f"O total de produtos são: {len(lstprecoprod)}")
-
             elif opcao == 4:
-
                 nomeprod2 = input("Digite o nome do produto que deseja verificar: ")
-
                 if nomeprod1 in lstnomeprod:
-
                     print(f"O produto {nomeprod1} está na lista.")
-
                 else:
-
                     print(f"O produto {nomeprod2} não está na lista. !")
-
             elif opcao == 5 :
-
                 print(f"Lista dos produtos cadastrados:\n\t {lstnomeprod}")
-
                 nomeprod3 = input("Digite o nome do produto que deseja remover: ")
-
                 if  nomeprod1 in lstnomeprod:
-
                     lstnomeprod.remove(nomeprod1)
-
                     print(f"O produto {nomeprod1} foi removido.")
-
                 else:
-
                     print(f"O produto {nomeprod1} não estava na lista.")
