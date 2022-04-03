@@ -35,14 +35,14 @@ class IdadeJogador():
     def cadastroIdade(self):
         return self.idade
 i = IdadeJogador(input("Digite a idade do jogador: "))
-print("A idade do jogador é: ", i.cadastroIdade()"anos.")
+print(f"A idade do jogador é:  {i.cadastroIdade()} anos" )
 class AlturaJogador():
     def __init__(self, altura):
         self.altura = altura
     def cadastroAltura(self):
         return self.altura
 a = AlturaJogador(float(input("Digite a altura do jogador: ")))
-print("A altura do jogador é: ", a.cadastroAltura())
+print(f"A altura do jogador é:  {a.cadastroAltura()}")
 
     
 
