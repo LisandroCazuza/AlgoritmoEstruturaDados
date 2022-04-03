@@ -1,6 +1,8 @@
-from listaprodutosclasses import Produtos
-
-prod = Produtos('Arroz', 5, 2)
-print(f'Nome: {prod.get._nome()}')
-print(f'Preço: {prod.get._preco()}')
-print(f'Quantidade: {prod.get._quantidade()}')
+"""
+from listaprodutosclasses import Funcionarios
+func = Funcionarios(nome = "Pedro", sobrenome =  "Souza",idade =  30,endereco =  "casa", )
+print(f"Nome: {func.get_nome()}") 
+print(f"Sobrenome: {func.get_sobrenome()}")
+print(f"Idade: {func.get_idade()}")
+print(f"Endereco: {func.get_endereco()}")
+"""
