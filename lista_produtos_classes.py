@@ -10,4 +10,4 @@ class Produtos( ):
       def get_quant(self):
             return self.__quantidade
       def  __str__(self):
-            
+            return ( f"Nome: {self.__nome}\n Preço: {self.__preco} \n Quantidade: {self.__quantidade}")g          
