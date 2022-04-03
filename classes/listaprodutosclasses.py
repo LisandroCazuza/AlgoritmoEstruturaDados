@@ -1,8 +1,8 @@
 class Produtos:
-      def __int__(set, nome, preco, quantidade):
-            self. __nome = nome
-            self. __preco = preco
-            self. __quantidade = quantidade
+      def __int__(self, nome, preco, quantidade):
+          self.  __nome = nome
+          self.  __preco = preco
+          self.  __quantidade = quantidade
       # Busca = Get 
       def get_nome(self):
             return self. __nome
