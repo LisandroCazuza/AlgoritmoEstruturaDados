@@ -3,13 +3,11 @@ class Produtos( ):
             self. __nome = nom
             self. __preco = prec
             self. __quantidade = quant
-      def get_nome(self):
+      def get_nom(self):
             return self. __nome
-      def get_preco(self):
+      def get_prec(self):
             return self.__preco
-      def get_quantidade(self):
+      def get_quant(self):
             return self.__quantidade
       def  __str__(self):
-          
-
-    
+            
