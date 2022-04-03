@@ -1,8 +1,9 @@
-class ListaProduto(): 
-    def __init__(self,produto,preco,quantidade):
-      self.prod  =  produto
-      self.preco = valor
-      self.quant= quantidade
-        
+class Produtos( ):
+      def __int__(set, nome, preco, quantidade):
+            self. n = nome
+            self. p = preco
+           self.q = quantidade 
+            
+      
         
         
