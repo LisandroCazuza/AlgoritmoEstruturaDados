@@ -21,7 +21,7 @@ print("caracteristic da bola: "
  "\nMaterial:",caracteristica.tipoMaterial(),
  "\nMarca: ",caracteristica.tipoMarca())
 caracteristica.trocarTamanho(10)
-print("A minha bola tem o tamnaho novo: ",caracteristica.tipoTamanho())
+print("A minha bola tem o tamanho novo: ",caracteristica.tipoTamanho())
 class Jogador():
     def __init__(self, nome):
         self.nome = nome         
