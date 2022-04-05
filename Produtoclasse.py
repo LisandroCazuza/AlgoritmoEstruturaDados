@@ -9,8 +9,10 @@ class Produtos():
       return self.__preco
   def get_quantidade(self):
       return self.__quantidade
-prod = Produtos("Massa"," 5", "2")
-print(f"Nome do produto: {prod.get_preco()}\n{prod.get_preco()}\n{prod.get_quantidade()}")
+print("Preço atual do produto: ")
+prod = Produtos("Massa","R$ 5,00", 1)
+print(f"Nome do produto: {prod.get_produto()}\nPreço: {prod.get_preco()}"
+      f"\nQuantidade de produtos:{prod.get_quantidade()}")
       
 
         
