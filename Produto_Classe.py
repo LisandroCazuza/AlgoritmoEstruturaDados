@@ -10,4 +10,10 @@ class Produtos():
             return self.__valor 
         def get_quantidade(self):
             return self.__quantidade
+        #Modificar informação
+        #def set_produto(self, nome):
+            
+prod = Produtos("Massa", 5, 2)
+print(f"Nome produto: {prod.get_produto()}\n{prod.get_valor()}\n{prod.get_quantidade()}")
+
         
