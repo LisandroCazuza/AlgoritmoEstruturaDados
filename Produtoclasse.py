@@ -40,8 +40,14 @@ prod = Produtos("Massa","R$ 5,00", 1)
 print(f"Nome do produto: {prod.get_produto()}\nPreço: {prod.get_preco()}"
 
       f"\nQuantidade de produtos:{prod.get_quantidade()}")
-trocar = input("Digite o nome do novo  produto: ").title()
-prod.set_produto(trocar)
+trocar1 = input("Digite o nome do novo  produto: ").title()
+prod.set_produto(trocar1)
+trocar2 = float(input("Digite o novo valor do produto: "))
+prod.set_preco(trocar2)
+trocar3 =int(input("Digite outra quantidade de produto: "))
+prod.set_quantidade(trocar3)
+
+
 
       
 
