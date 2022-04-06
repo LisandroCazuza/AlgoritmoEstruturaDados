@@ -36,7 +36,7 @@ class Produtos():
 
 #print("Preço atual do produto: ")
 
-prod = Produtos(" "," "," " )
+prod = Produtos(" " ,"  " ,"  " )
 prod2 = Produtos("Arroz ",2, 1 )
 print(f"Produto em promoção:"
       f"\n\nNome do produto: {prod2.get_produto()}"
