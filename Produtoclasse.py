@@ -39,8 +39,9 @@ class Produtos():
 prod = Produtos(" "," "," " )
 prod2 = Produtos("Arroz ",2, 1 )
 print(f"Produto em promoção:"
-      f"\n\nNome do produto: {prod2.get_produto()}\nPreço: R$ {prod2.get_preco()}"
-f"\nQuantidade de produtos:{prod2.get_quantidade()}")
+      f"\n\nNome do produto: {prod2.get_produto()}"
+     f"\nPreço: R$ {prod2.get_preco()}"
+      f"\nQuantidade de produtos:{prod2.get_quantidade()}")
 print("_______________________________________________________________")
 #print("Se desejar continuar - Enter - cancelar - 0 - zero")
 cad1 = input("Digite o nome do   produto: ").title()
