@@ -1,61 +1,57 @@
 lst = [ ]
 class Produtos():
-    
-  def __init__(self,nome, valor, quant ):
 
-      self.__produto = nome 
+    def __init__(self,nome , valor , quant  ):
 
-      self.__preco = valor 
+        self.__produto = nome
 
-      self.__quantidade = quant
+        self.__preco = valor
 
-      #Buscar informação 
+        self.__quantidade = quant
 
-  def get_produto(self):
-      return self.__produto
+        #Buscar informação
 
-  def get_preco(self):
-      return self.__preco
+    def get_produto(self):
+        return self.__produto
 
-  def get_quantidade(self):
-      return self.__quantidade
+    def get_preco(self):
+        return self.__preco
 
-  #Trocar informação
+    def get_quantidade(self):
+        return self.__quantidade
 
-  def set_produto(self, produto):
+    #ccad1 informação
 
-      self.__produto = produto
+    def set_produto(self, produto):
 
-  def set_preco(self,preco):
+        self.__produto = produto
 
-      self.__preco = preco
+    def set_preco(self,preco):
 
-  def set_quantidade(self,quantidade):
+        self.__preco = preco
 
-      self.__quantidade = quantidade  
+    def set_quantidade(self,quantidade):
 
-print("Preço atual do produto: ")
+        self.__quantidade = quantidade
 
-prod = Produtos("Massa","R$ 5,00", 1)
+#print("Preço atual do produto: ")
 
-print(f"Nome do produto: {prod.get_produto()}\nPreço: {prod.get_preco()}"
+prod = Produtos(" "," "," " )
+prod2 = Produtos("Arroz ",2, 1 )
+print(f"Produto em promoção:"
+      f"\n\nNome do produto: {prod2.get_produto()}\nPreço: R$ {prod2.get_preco()}"
+f"\nQuantidade de produtos:{prod2.get_quantidade()}")
+print("_______________________________________________________________")
+#print("Se desejar continuar - Enter - cancelar - 0 - zero")
+cad1 = input("Digite o nome do   produto: ").title()
+prod.set_produto(cad1)
+lst.append(cad1)
+cad2 = float(input("Digite o  valor do produto: R$  "))
+prod.set_preco(cad2)
+lst.append(cad2)
+cad3 = int(input("Digite quantidade de produto: "))
+prod.set_quantidade(cad3)
+lst.append(cad3)
 
-      f"\nQuantidade de produtos:{prod.get_quantidade()}")
-trocar1 = input("Digite o nome do novo  produto: ").title()
-prod.set_produto(trocar1)
-lst.append(trocar1)
-trocar2 = float(input("Digite o novo valor do produto: "))
-prod.set_preco(trocar2)
-lst.append(trocar2)
-trocar3 =int(input("Digite outra quantidade de produto: "))
-prod.set_quantidade(trocar3)
-lst.append(trocar3)
 print("Lista:")
 print(lst)
-
-
-
-      
-
-        
-
