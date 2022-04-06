@@ -1,3 +1,4 @@
+lst = [ ]
 class Produtos():
     
   def __init__(self,nome, valor, quant ):
@@ -42,10 +43,15 @@ print(f"Nome do produto: {prod.get_produto()}\nPreço: {prod.get_preco()}"
       f"\nQuantidade de produtos:{prod.get_quantidade()}")
 trocar1 = input("Digite o nome do novo  produto: ").title()
 prod.set_produto(trocar1)
+lst.append(trocar1)
 trocar2 = float(input("Digite o novo valor do produto: "))
 prod.set_preco(trocar2)
+lst.append(trocar2)
 trocar3 =int(input("Digite outra quantidade de produto: "))
 prod.set_quantidade(trocar3)
+lst.append(trocar3)
+print("Lista:")
+print(lst)
 
 
 
