@@ -9,10 +9,5 @@ class Aluno():
         return self.__nome
     def get_matricula(self):
         return self.__matricula
-    def set_codigo(self,codigo):
-        self.__codigo = codigo
-    def set_nome(self, nome):
-        self.__nome = nome 
-    def set_matricula(self, matricula):
-        self.__matricula = matricula
+
         
