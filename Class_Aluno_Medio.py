@@ -4,14 +4,10 @@ class Aluno_Media():
         self.__ano = a
     def get_ano(self):
         return self.__ano
-    def sef_ano(self, ano):
-        self.__ano = ano
-ano = Aluno(" cod  ", "nome ", " matri" )
-print(f"{ano.get_codigo()}\n {ano.get_nome()}"
-      f"\n {ano.get_matricula()}  ")
-ano2 = Aluno_Media("ano")
-print(f"{ano2.get_ano()}")
 
-                
-    
-    
+alunomedio = Aluno(23 , "Lisandro ", " 200511025")
+print(f"\n\tCódigo do Aluno: {alunomedio.get_codigo()}"
+f"\n\tNome do aluno:  {alunomedio .get_nome()}"
+f"\n\tNº da matricula do aluno:  {alunomedio .get_matricula()}  ")
+alunomed = Aluno_Media(2)
+print(f"\tO aluno do: {alunomed.get_ano()}º ano do segundo grau. ")
