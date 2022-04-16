@@ -11,4 +11,4 @@ print(f"\n\tCódigo do Aluno: {alunomedio.get_codigo()}"
 f"\n\tNome do aluno:  {alunomedio .get_nome()}"
 f"\n\tNº da matricula do aluno:  {alunomedio .get_matricula()}  ")
 alunomed = Aluno_Media(2)
-print(f"\tO aluno do: {alunomed.get_ano()}º ano do segundo grau. ")
+print(f"\tO aluno {alunomedio .get_nome()} está : {alunomed.get_ano()}º ano do segundo grau. ")
