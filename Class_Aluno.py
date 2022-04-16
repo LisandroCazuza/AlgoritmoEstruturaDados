@@ -1,3 +1,4 @@
+# Super classe ou classe mãe 
 class Aluno():
     def  __init__(self, c, n, m):
         self.__codigo = c 
