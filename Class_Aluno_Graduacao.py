@@ -11,6 +11,6 @@ f"\n\tNome da aluna: {alunagraduacao.get_nome()}"
 f"\n\tNº da matricula da aluna:  {alunagraduacao .get_matricula()}  ")
 alunagrad = Aluno_Graduacao(3)
 print(f"\tA aluna {alunagraduacao.get_nome()} está: {alunagrad .get_semestre()}"
-        f"º semestre  de graduação ")
+ f"º semestre  de graduação ")
         
         
