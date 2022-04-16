@@ -13,6 +13,6 @@ class Aluno():
         self.__codigo = codigo
     def set_nome(self, nome):
         self.__nome = nome 
-    def set_matricula(self, matricula:
-        self.__matricula = matricula 
+    def set_matricula(self, matricula):
+        self.__matricula = matricula
         
