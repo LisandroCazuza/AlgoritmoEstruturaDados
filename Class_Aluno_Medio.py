@@ -7,8 +7,8 @@ class Aluno_Media(Aluno):
         return self.__ano
 
 alunomedio = Aluno(23 , "Lisandro "," 200511025")
-print(f"\n\tCódigo do Aluno: {alunomedio.get_codigo()}"
-f"\n\tNome do aluno:  {alunomedio .get_nome()}"
-f"\n\tNº da matricula do aluno:  {alunomedio .get_matricula()}  ")
+print(f"\nCódigo do Aluno: {alunomedio.get_codigo()}\n"
+f"\nNome do aluno:  {alunomedio .get_nome()}\n"
+f"\nNº da matricula do aluno:  {alunomedio .get_matricula()}\n  ")
 alunomed = Aluno_Media(2)
-print(f"\tO aluno {alunomedio .get_nome()} está : {alunomed.get_ano()}º ano do segundo grau. ")
+print(f"\nO aluno {alunomedio .get_nome()} está : {alunomed.get_ano()}º ano do segundo grau. ")
