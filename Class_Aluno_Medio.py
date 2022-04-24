@@ -1,6 +1,6 @@
 # Aluno ensino médio  = sub classe ou classe filha 
 from Class_Aluno import Aluno
-class Aluno_Media():
+class Aluno_Media(Aluno):
     def  __init__(self, a):
         self.__ano = a
     def get_ano(self):

@@ -1,6 +1,6 @@
 # Aluna de graduação = sub classe ou classe filha 
 from Class_Aluno import Aluno
-class Aluno_Graduacao():
+class Aluno_Graduacao(Aluno):
     def __init__(self,s):
         self.__semestre = s
     def get_semestre(self):
